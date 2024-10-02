@@ -1,0 +1,133 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(173, 216, 230, 0.5) 0%, rgba(39, 100, 214, 0.3) 100%);
+   
+    
+}
+.hello{
+    width: 400px;
+    font-size: 3.7rem;
+    border-bottom: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,  rgb(33, 33, 37),rgb(8, 8, 22)  );
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+.div_img {
+    width: 300px;
+    display: flex; /* Para centralizar ou alinhar a imagem */
+    justify-content: center; /* Opcional */
+    align-items: center; /* Opcional */
+}
+
+.image {
+    width: 300px; /* Corrigido */
+    height: 300px; /* Corrigido */
+}
+.divHeader{
+    width: 100dvh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 2rem;
+    scroll-margin-top: 15rem;
+    
+
+   
+    
+
+    
+}
+header .headerLeft{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 40rem;
+    flex: 1;
+}
+header .headerLeft p{
+
+    color: black;
+    text-align: left;
+    max-width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    
+   
+
+}
+
+
+
+header .header_right{  
+    position: relative;
+    line-height: 0;
+}
+header .header_right img{  
+    border-radius: 50%;
+    padding: 0.5rem;
+
+    background-image: linear-gradient(to right,  rgb(235, 229, 230),rgb(27, 27, 77) );
+    background-clip: border;
+    -webkit-background-clip: border;
+    color: transparent;
+
+    height: 300px;
+}
+header .header_left h1{
+  
+
+    text-align: left;
+
+    
+    
+}
+.btn{
+    background-color:none;
+    border: none;
+    outline: none;
+    padding: 1rem 4rem;
+    display: inline-block;
+    border-radius: 6.5rem;
+
+    background-color: black;
+    color: white;
+    width: 90px;
+    align-content: start;
+    text-align: center;
+    font-size: 1.5rem;
+    
+
+    cursor: pointer;
+  
+}
+#more:hover{
+    background-color: rgb(70, 80, 95); 
+    transition: .4s;   
+   
+}
+
+@media(max-width:768px){
+    
+    .divHeader{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+   
+
+   header .header_right img{  
+    height: 200px;
+ }
+
+}

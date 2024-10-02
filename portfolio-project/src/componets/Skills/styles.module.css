@@ -1,0 +1,66 @@
+
+.sectionSkills{  
+    
+    min-height: 100vh;
+    background-color: rgba(30, 73, 153, 0.123);
+    background-color: rgba(39, 100, 214, 0.24);
+    scroll-margin-top: 8rem;
+    box-shadow: 0 0rem 2rem rgb(21, 21, 22);
+    text-align: center;
+    
+    
+    
+   
+    
+  
+}
+
+
+.list_skills{
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.divSkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+    
+    
+   
+    
+    
+}
+
+
+.img-item{
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 40%;
+    height: 5rem;
+    width: 5rem;
+    
+    box-shadow: 0 0.4rem 1rem rgb(15, 15, 15);
+    
+}
+
+.description{
+    max-width: 56rem;
+    margin: 0 auto 6 rem;
+    
+
+}
+
+@media (max-width: 768px) {
+    .divSkills{
+        flex-direction: column;
+    }
+
+}
