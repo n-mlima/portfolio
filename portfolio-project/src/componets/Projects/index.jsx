@@ -3,6 +3,10 @@ import styles from '../Projects/styles.module.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import img from '/src/assets/imagens/dashboard.png';
+import img1 from '/src/assets/imagens/calc.png';
+import img2 from '/src/assets/imagens/tic-tac-toe.png';
+import img3 from '/src/assets/imagens/notes.png';
 
 
 const Projects = () => {
@@ -45,7 +49,7 @@ const Projects = () => {
         <div className='central'>
             <div className={styles.projectItem}>
                 <div className={styles.projectList}>
-                    <img className={styles.imgProjects} src="/src/assets/imagens/dashboard.png" alt="Dashboard" />
+                    <img className={styles.imgProjects} src={img} alt="Dashboard" />
                 </div>  
                 <div className={styles.liProjectsDesc}>
                     <h2>Dashboard</h2>
@@ -60,7 +64,7 @@ const Projects = () => {
         <div className='central'>
             <div className={styles.projectItem}>
                 <div className={styles.projectList}>
-                    <img className={styles.imgProjects} src="/src/assets/imagens/calc.png" alt="Calculadora" />
+                    <img className={styles.imgProjects} src={img1} alt="Calculadora" />
                 </div>  
                 <div className={styles.liProjectsDesc}>
                     <h2>Calculadora</h2>
@@ -74,7 +78,7 @@ const Projects = () => {
         <div className='central'>
             <div className={styles.projectItem}>
                 <div className={styles.projectList}>
-                    <img className={styles.imgProjects} src="/src/assets/imagens/tic-tac-toe.png" alt="Jogo da velha" />
+                    <img className={styles.imgProjects} src={img2} alt="Jogo da velha" />
                 </div>  
                 <div className={styles.liProjectsDesc}>
                     <h2>Jogo da Velha</h2>
@@ -88,7 +92,7 @@ const Projects = () => {
         <div className='central'>
             <div className={styles.projectItem}>
                 <div className={styles.projectList}>
-                    <img className={styles.imgProjects} src="/src/assets/imagens/notes.png" alt="Lista de tarefas" />
+                    <img className={styles.imgProjects} src={img3} alt="Lista de tarefas" />
                 </div>  
                 <div className={styles.liProjectsDesc}>
                     <h2>Lista de Tarefas</h2>
