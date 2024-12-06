@@ -9,7 +9,7 @@ const Header = () => {
           <div className={styles.headerLeft}>
             <h1 className={styles.hello}>&lt;Nailson Lima&gt;</h1>
             <p id="p-section1">
-              Tenho 28 anos, graduando em Análise e Desenvolvimento de Sistemas, e desenvolvedor full stack em formação.
+              Graduando em Análise e Desenvolvimento de Sistemas com foco em desenvolvimento full stack.
             </p>
             <a className={styles.btn} href="#contacts" id="more">Saber mais</a>
           </div>
